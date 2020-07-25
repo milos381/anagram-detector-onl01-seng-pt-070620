@@ -13,6 +13,7 @@ class Anagram
         new_arr << words
       end
     end
+    new_arr
   end
 
 end
