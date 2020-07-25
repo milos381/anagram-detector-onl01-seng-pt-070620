@@ -8,11 +8,10 @@ class Anagram
   end
   def match(anagrams)
     anagrams.map do |words|
-      if words.split("") == @word.split("")
+      if words.split("") == @word
         return words
       end
     end
-    words
   end
 
 end
