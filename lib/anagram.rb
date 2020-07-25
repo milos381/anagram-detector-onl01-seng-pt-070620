@@ -6,7 +6,7 @@ class Anagram
   def initialize(word)
     @word = word
   end
-  def self.match(anagrams)
+  def match(anagrams)
     anagrams.map do |words|
 
     end
